@@ -292,9 +292,11 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-  /*Your Code Here*/
-  }
+function addArtist(array, id, name, years, genre, nationality, bio) {
+array.push({id, name, years, genre, nationality, bio});
+return array;
+}
+console.log(addArtist(artists, 20, 'Jaynee Salcedo', '1999-2020','Web Design', 'Spanish,Portugese,Philipino,and PuertoRican', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci.'));
 
   
 
