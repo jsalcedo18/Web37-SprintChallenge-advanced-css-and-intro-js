@@ -240,15 +240,27 @@ Create a function called get20s() that takes data as an argument and
 returns an array with names of artists who were born in and died in 20th century (1900-2000) 
 example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
 
-// function get20s(/*Your Code Here*/){
-//   /*Your Code Here*/
+// const nameOfArtists = [];
+
+// function get20s(){
+	
+// for(let i = 0; i < artists.length; i++) {
+// 	if(artists[i].years > '1900' && artists[i].years < '2000') {
+// 		nameOfArtists.push(artists[i].name);
+// 	}
+//  }
+// 	return nameOfArtists;
 // }
+
+// console.log(get20s(nameOfArtists));
+
 const nameOfArtists = [];
 
 function get20s(){
+	
 
 for(let i = 0; i < artists.length; i++) {
-	if(artists[i].years === '1900-2000') {
+	if(artists[i].years > '1900' && artists[i].years < '2000') {
 		nameOfArtists.push(artists[i].name);
 	}
  }
@@ -256,7 +268,6 @@ for(let i = 0; i < artists.length; i++) {
 }
 
 console.log(get20s(nameOfArtists));
-
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called `removeArtist` that takes two arguments:
@@ -296,7 +307,7 @@ function addArtist(array, id, name, years, genre, nationality, bio) {
 array.push({id, name, years, genre, nationality, bio});
 return array;
 }
-console.log(addArtist(artists, 20, 'Jaynee Salcedo', '1999-2020','Web Design', 'Spanish,Portugese,Philipino,and PuertoRican', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci.'));
+console.log(addArtist(artists, 20, 'Jaynee Salcedo', '2001-2020','Web Design', 'Spanish,Portugese,Philipino,and PuertoRican', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci.'));
 
   
 
