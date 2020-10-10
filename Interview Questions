@@ -1,4 +1,31 @@
 1. How would you describe acessibility on the web to someone new to programming?
+    The web comes in multiple differenct screens and held by a variety types of people. Not everyone has 
+20/20 vision and may have disabilities of other things. By making your web accessible, you are opening equality
+up to everyone. For example, semantic tags are what the internet is able to read; and some people
+may need the internet itself to read to them whats on the screen; so forth if you have more divs then 
+semantic tags, the internet would not be able to read to them the same amount of information as if 
+a human reading it. In addition, not everyone has the same screen size; some may have huge screens and
+others might not be able to afford huge screens; so forth, you do not want to be bias, and you want to make 
+sure that your information shows up on all sizes, without hindering others. With making your web responsive to fit 
+multiple different screen sizes, you are creating your web to be accessible and equal to all.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+    Three things you can do to make sure your web page is accessible would be; one, making your
+    web responsive to multiple different screen sizes. Another would be to use as much semantic
+    tags as possible to allow those who use a screen reader, to be able to access as much information
+    as possible. A third would be labeling alt textes as much as possible; for example, if your image 
+    is unable to load for any type of reason, they could atleast know what that image is about
+    with you labeling the alt text.
+
 3. How would you explain the concept of a variable to someone new to programming?
+    a variable holds the data value. Its like the container for cereal. When you put cereal
+    in the container, you are holding all the information inside that container and if there 
+    is a need for information to come out, you would have to open the container lid (the return statement).
+    Now without a variable, thats as if all the data (pieces of cereal) is spilled all over the place, it creates
+    a mess and you can't access anything because nothing is in your container. 
+
 4. What is the purpose of using functions in code?
+    functions are basically the task. functions provide the information of what you need 
+    to do in order to get the product from the finishing task. With out functions, you would
+    not be able to tell the browser to do what you want it to do. Without instructions, you
+    have no steps towards a finish product.
